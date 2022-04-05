@@ -4,15 +4,14 @@ import './App.css';
 
 
 function App() {
-  return (
-    <div className="App">
-     <Router>
-      <Routes>
-        <Route exact path="/" element={<Login />} />
-      </Routes>
-    </Router>
-    </div>
-  );
+return (
+<div className="App">
+<Router>
+ <Routes>
+   <Route exact path="/" element={<Login />} />
+ </Routes>
+</Router>
+</div>
+);
 }
-
 export default App;
